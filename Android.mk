@@ -6,4 +6,16 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),d1)
 
+$(call add-radio-file-sha1-checked,radio/cm.bin_SM-N970F,7028d2285569c99afd3f57453f63f1742d90b0f6)
+$(call add-radio-file-sha1-checked,radio/dqmdbg.img_SM-N970F,ded5586fa803f0e7066559f3982519e265527868)
+$(call add-radio-file-sha1-checked,radio/keystorage.bin_SM-N970F,fe6be794693eccf6e437dbfa6b22b15bc882dc68)
+$(call add-radio-file-sha1-checked,radio/models,c55950824b82b88c5f0fcade4700eec3f44c9cb8)
+$(call add-radio-file-sha1-checked,radio/modem.bin_SM-N970F,c8193300f8c9f652f6e134fc3a87defa284d7874)
+$(call add-radio-file-sha1-checked,radio/modem_debug.bin_SM-N970F,97e329a703e7a5fb6426bc48fd3b38c67f1ca01e)
+$(call add-radio-file-sha1-checked,radio/param.bin_SM-N970F,1250c2492d68ca036b83a67a6700f2490227d44f)
+$(call add-radio-file-sha1-checked,radio/sboot.bin_SM-N970F,cc7f1a274877c04920c3efa5cdaf338be2032e8f)
+$(call add-radio-file-sha1-checked,radio/uh.bin_SM-N970F,2366b3c4ad274d863453129c6bc475debf32ba65)
+$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-N970F,4ef44de92a10917a27ed02d491a53c730e568743)
+$(call add-radio-file-sha1-checked,radio/version_SM-N970F,e858aa7fb620d17bc9742bad22438a2cb063eea8)
+
 endif
